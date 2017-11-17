@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ma.ac.uit.ensa.addfragmentmethod1.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout30"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment android:name="ma.ac.uit.ensa.addfragmentmethod1.ArticleFragment"
+            android:id="@+id/login_fragment"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+        <fragment android:name="ma.ac.uit.ensa.addfragmentmethod1.TestFragment"
+            android:id="@+id/image_fragment"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
