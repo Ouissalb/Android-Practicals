@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:text="TextView"
+        tools:text="Complex items list"
+        android:layout_weight="0.84" />
+
+
+    <ImageView
+
+        android:scaleType="fitStart"
+        android:id="@+id/imageView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="0.15"
+        android:gravity="right"
+        />
+</LinearLayout>
